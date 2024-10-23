@@ -111,3 +111,54 @@ a{
 .card p{
     text-align: center;
 }
+
+.quote-container {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 100%;
+}
+
+.quote-container p{
+    text-align: center;
+    width: 900px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-container strong{
+    display: block;
+    width: 900px;
+    text-align: right;
+}
+
+.call-to-action{
+
+    padding: 36px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 48px 300px;
+    color: #F9FAF8;
+}
+
+.call-to-action .text .head{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.call-to-action button{
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: 600;
+    color: #F9FAF8;
+}
